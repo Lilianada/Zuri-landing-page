@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- icon link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <!-- header part -->
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__list">
+                <div class="header__item item-left"><img src="./Image/zuri-logo.png" alt="zuri-img" class="zuri-logo"></div>
+                <div class="header__item item-right"><i class="fas fa-expand-arrows-alt fa-3x"></i></d>
+                <div class="header__item item-right">
+                    <a href="http://127.0.0.1:5500/registration.html" class="header__link">register</a>
+                </d>
+                <div class="header__item item-right">
+                    <a href="" class="header__link">login</a>
+                </d>
+            </div>
+            <div class="header__item item-right">
+                    <a href="" class="header__link">home</a>
+                </d>
+            </div>
+            <div class="header__item item-right">
+                    <a href="" class="header__link">about</a>
+                </d>
+            </div>
+            <div class="header__item item-right">
+                    <a href="" class="header__link">contact</a>
+                </d>
+            </div>
+        </nav>
+    </header>
+    <!-- end of header -->
+    <!-- section content -->
+    <section class="section__content">
+        <h1 class="content__heading">Welcome to Zuri Training</h1>
+        <h3 class="content__heading">Gain enough knowledge to help scale through the tech industry for free</h3>
+        <h5 class="content__heading">Basic introduction to software development and design aimed at complete beginners and opento anyone with passion and interest... Read More</h5>
+        <p class="section__paragraph">Login / Register to get started</p>
+    </section>
+    <!-- end of section content -->
+​
+    <!-- intro image -->
+    <section class="section-landing-img">
+        <div id="landing-img-box">
+            <img src="./Image/top-image.svg" alt="welcome image" class="landong-img" id="welcome-img">
+        </div>
+    </section>
+    <!-- end of intro image -->
+    
+    <!-- section form -->
+    <section class="section__reg-content">
+        <h1 class="reg__heading1">CREATE YOUR ACCOUNT</h1>
+        <h2 class="reg__heading2">ALL FIELDS ARE REQUIRED</h2>
+        <h3 class="reg__heading3">Note: This workspace requires you to register with the same email address and username as you have on the slack workspace</h3>
+        <!-- form part -->
+        <form action="" class="reg__form">
+            <div class="form__group">
+                <label for="fisrt-name" class="form__label">first name</label>
+                <input type="text" name="fisrt-name" class="form__input">
+            </div>
+            <div class="form__group">
+                <label for="last-name" class="form__label">last name</label>
+                <input type="text" name="last-name" class="form__input">
+            </div>
+            <div class="form__group">
+                <label for="middle-name" class="form__label">middle name</label>
+                <input type="text" name="middle-name" class="form__input">
+            </div>
+            <div class="form__group">
+                <label for="user-name" class="form__label">user name</label>
+                <input type="text" name="user-name" class="form__input">
+            </div>
+            <div class="form__group">
+                <label for="gender" class="form__label">gender</label>
+                <select class="form__input">
+                    <option value="opt">Select a gender</option>
+                    <option value="opt">Female</option>
+                    <option value="opt">Male</option>
+                    <option value="opt">Prefer not to say</option>
+                </select>
+            </div>
+            <div class="form__group">
+                <label for="age" class="form__label">age</label>
+                <input type="text" name="age" class="form__input">
+            </div>
+            <div class="form__group-1">
+                <label for="gender" class="form__label">experience level</label>
+                <select class="form__input">
+                    <option value="opt">Select experience level</option>
+                    <option value="opt">None</option>
+                    <option value="opt">Beginner</option>
+                    <option value="opt">Mid-Level</option>
+                    <option value="opt">Expert</option>
+                </select>
+            </div>
+            <div class="form__group-1">
+                <label for="gender" class="form__label">track</label>
+                <select class="form__input">
+                    <option value="opt">Select a track</option>
+                    <option value="opt">Back end</option>
+                    <option value="opt">Front end</option>
+                    <option value="opt">Design</option>
+                    <option value="opt">Mobile</option>
+                </select>
+            </div>
+            <div class="form__group-1">
+                <label for="gender" class="form__label">education</label>
+                <select class="form__input">
+                    <option value="opt">Select one</option>
+                    <option value="opt">None</option>
+                    <option value="opt">Grade School</option>
+                    <option value="opt">High School</option>
+                    <option value="opt">Bachelor's Degree</option>
+                    <option value="opt">Master's Degree</option>
+                    <option value="opt">Post Graduate Degree</option>
+                </select>
+            </div>
+            <div class="form__group-1">
+                <label for="gender" class="form__label">employment status</label>
+                <select class="form__input">
+                    <option value="opt">Select employment status</option>
+                    <option value="opt">Unemployed</option>
+                    <option value="opt">Employed</option>
+                    <option value="opt">Self Employed</option>
+                </select>
+            </div>
+            <div class="form__group-2">
+                <label for="email" class="form__label">email address</label>
+                <input type="email" name="email" class="form__input">
+            </div>
+            <div class="form__group-2">
+                <label for="email" class="form__label">password</label>
+                <input type="password" name="email" class="form__input">
+            </div>
+            <div class="form__group-2">
+                <label for="email" class="form__label">confirm password</label>
+                <input type="password" name="email" class="form__input">
+            </div>
+            <div class="form__group-2">
+                <label for="email" class="form__label">How did you hear about us</label>
+                <select class="form__input">
+                    <option value="opt">Select one</option>
+                    <option value="opt">None</option>
+                    <option value="opt">Facebook</option>
+                    <option value="opt">Twitter</option>
+                    <option value="opt">Linkedln</option>
+                    <option value="opt">Whatsapp</option>
+                    <option value="opt">Don Jazzy</option>
+                </select>
+            </div>
+            <div class="end__form">
+                <a href="#" class="form__reg1">already registered?</a>
+                <a href="#" class="form__reg2">register</a>
+            </div>
+        </form>
+        <!-- end of form part -->
+    </section>
+</body>
+</html>
